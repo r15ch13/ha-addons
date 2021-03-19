@@ -13,7 +13,7 @@
   "ingress_port": 8043,
   "environment": {
     "SSL_CERT_NAME":"../ssl/fullchain.pem", 
-    "SSL_KEY_NAME":"../ssl/privkey.pem"
+    "SSL_KEY_NAME":"../ssl/privkey.pem",
     "TZ":"Europe/Berlin"
   },
   "ports": {
