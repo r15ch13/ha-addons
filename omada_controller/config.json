@@ -10,8 +10,12 @@
   "init": false,
   "map": ["backup:rw", "ssl"],
   "ingress": true,
-  "ingress_port": 0,
-  "host_network": true,
+  "ingress_port": 8043,
+  "environment": {
+    "SSL_CERT_NAME":"../ssl/fullchain.pem", 
+    "SSL_KEY_NAME":"../ssl/privkey.pem"
+    "TZ":"Europe/Berlin"
+  },
   "ports": {
     "8088": 8088,
     "8043": 8043,
