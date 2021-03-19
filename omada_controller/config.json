@@ -9,6 +9,9 @@
   "arch": ["aarch64", "amd64", "armv7", "i386"],
   "init": false,
   "map": ["backup:rw", "ssl"],
+  "ingress": true,
+  "ingress_port": 0,
+  "host_network": true,
   "ports": {
     "8088": 8088,
     "8043": 8043,
