@@ -1,6 +1,6 @@
 {
   "name": "TP-Link Omada Controller",
-  "version": "0.1",
+  "version": "latest",
   "slug": "omada_controller",
   "description": "TP-Link Omada Controller",
   "url": "https://github.com/r15ch13/ha-addons/tree/master/omada_controller",
